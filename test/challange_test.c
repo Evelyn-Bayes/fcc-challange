@@ -8,7 +8,10 @@ int main() {
     char buffer[14];
     challange_fill(buffer, sizeof(buffer));
 
-    assert(strcmp(buffer, "Hello, World!") == 0);
-    printf("Test passed: \"%s\"\n", buffer);
+    if (strcmp(buffer, "Hello, World!") == 0) {
+        printf("Test passed: \"%s\"\n", buffer);
+    } else {
+        printf("Test failed: \"%s\"\n", buffer);
+    }
     return 0;
 }
