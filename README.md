@@ -1,7 +1,7 @@
 # Obfuscated C Coding Challenge
 
 ## Goal
-Write a C program that passes the provided unit tests — but make your implementation as unreadable and confusing as possible.
+Write a C program that puts "Hello, World!" into the buffer and passes the unit test — but make your implementation as unreadable and confusing as possible.
 
 ## What you can edit
 - `challenge.h`: function signature(s)
